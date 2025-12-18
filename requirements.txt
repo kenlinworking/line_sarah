@@ -1,0 +1,11 @@
+# --- 核心功能與網路通訊 ---
+requests        # (修正 'quests' 拼寫) 處理 HTTP 請求，用於 Ollama API 或圖片下載
+paho-mqtt       # 處理 MQTT 通訊
+Flask           # 建立 Webhook Endpoint
+gunicorn        # (建議) 正式環境用的 WSGI 伺服器
+
+# --- LINE Bot ---
+line-bot-sdk    # 處理 LINE 訊息解析與回覆
+
+# --- 語言模型 API 客戶端 ---
+openai          # 如果 LLM_TYPE='openai' 時使用
